@@ -11,15 +11,14 @@ Download the latest release of the DLL and extract it to the LiveSplit component
 
 ## Development
 
+Copy the latest release of LiveSplit to ``C:/Program Files/LiveSplit``.
+
 Clone the repository.
 
 ```
-git clone https://github.com/LiveSplit/LiveSplit
-git clone https://github.com/nathanesau/LiveSplit.PartialRunPrediction LiveSplit/LiveSplit/Components
+git clone https://github.com/nathanesau/LiveSplit.PartialRunPrediction
 ```
 
-Add the project to the LiveSplit solution in Visual Studio.
+Open ``LiveSplit.PartialRunPrediction.sln`` in Visual Studio and compile the project.
 
-![](https://i.imgur.com/DiebyA2.png)
-
-![](https://i.imgur.com/kiRxSFP.png)
+The component will be output to ``C:/Program Files/LiveSplit/Components``.
